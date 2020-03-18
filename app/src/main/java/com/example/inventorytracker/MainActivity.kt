@@ -30,11 +30,11 @@ class MainActivity : AppCompatActivity() {
 //
 //        lastSavedProduct.text = savedName
 
-        lifecycleScope.launch(Dispatchers.Default) {
-            val message =
-                URL("https://finepointmobile.com/api/inventory/v1/message").readText()
-            d("will", "the message is: $message")
-            lastSavedProduct.text = message
-        }
+//        lifecycleScope.launch(Dispatchers.Default) {
+//            val message =
+//                URL("https://finepointmobile.com/api/inventory/v1/message").readText()
+//            d("will", "the message is: $message")
+//            lastSavedProduct.text = message
+//        }
     }
 }
